@@ -1,0 +1,5 @@
+/home/jovyan/rank_choice_voting/build/CMakeFiles/run_tests.dir
+/home/jovyan/rank_choice_voting/build/CMakeFiles/run_app_1.dir
+/home/jovyan/rank_choice_voting/build/CMakeFiles/test.dir
+/home/jovyan/rank_choice_voting/build/CMakeFiles/edit_cache.dir
+/home/jovyan/rank_choice_voting/build/CMakeFiles/rebuild_cache.dir
