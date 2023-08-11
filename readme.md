@@ -1,4 +1,4 @@
-# CSPB 2270 – Data Structures - Term Project
+# Rank Choice Voting System using Treaps 
 
 ## What is Rank Choice Voting and How Does it Work? 
 
@@ -7,7 +7,7 @@ I dare not sound like a broken record when I say that our political voting syste
 Let's say we have four candidates running for office. In the first round, voters will rank the candidates based on preference. Once the votes are tabulated, we look for a candidate with over 50% (plus one) of the vote. If they obtain a majority, they win and the election is over. If no candidate obtains a majority the election enters into round two. In round two, the candidate with the lowest percentage of votes is eliminated. Now, this is where it gets tricky, all voters who ranked their first choice as the now-eliminated candidate will have their votes redistributed. Their votes will now go to whomever they ranked as their second choice in the election. The percentage of the voters is now redistributed. This algorithm continues until a candidate in the race reaches a majority. 
 
 
-## Data Stucture Implemented: TREAP 
+## Data Structure Implemented: TREAP 
 
 The purpose of this project is to implement a Rank-Choice voting system that simplifies the process and can be used as an educational tool for voters to learn about the advantages over our current system. This project can be implemented through a tree, however, a Treap is preferred over a regular Binary Search Tree given its structural advantages. A Treap uses two keys, a main key used to maintain binary search tree ordering, and a priority key, created randomly, to maintain heap properties.  While operations like search, delete and insert have a worst-case complexity of O(n) in a Binary Search Tree, a Treap is expected to maintain a complexity of O(Log n) for those same operations. This is because a Treap utilizes randomization and Binary Heap properties to maintain a high probability of balance in addition to a near-minimum height. Given these reasons, this complex algorithm will benefit from the structure of a Treap
 
