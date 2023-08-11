@@ -13,7 +13,7 @@ The purpose of this project is to implement a Rank-Choice voting system that sim
 
 ## What Are the Races and Who Are the Candidates? 
 
-The first race run through Rank Choice Voting is "Ms.Frizzle's Line Leader Election". There are four candidates (Lisa, Bob, Jane, and Mike), and five ballot cast. 
+The first race run through Rank Choice Voting is "Ms.Frizzle's Line Leader Election". There are four candidates (Lisa, Bob, Jane, and Mike), and five ballots cast. 
 
 The next race is called "Senior Class of 2023 Overseas Trip Vote; Where Should We Go?". There are five suggested locations (Australia, Italy, Japan, Peru, or South Africa) and ten students casting their ballots. 
 
