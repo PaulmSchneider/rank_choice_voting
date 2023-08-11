@@ -11,6 +11,15 @@ Let's say we have four candidates running for office. In the first round, voters
 
 The purpose of this project is to implement a Rank-Choice voting system that simplifies the process and can be used as an educational tool for voters to learn about the advantages over our current system. This project can be implemented through a tree, however, a Treap is preferred over a regular Binary Search Tree given its structural advantages. A Treap uses two keys, a main key used to maintain binary search tree ordering, and a priority key, created randomly, to maintain heap properties.  While operations like search, delete and insert have a worst-case complexity of O(n) in a Binary Search Tree, a Treap is expected to maintain a complexity of O(Log n) for those same operations. This is because a Treap utilizes randomization and Binary Heap properties to maintain a high probability of balance in addition to a near-minimum height. Given these reasons, this complex algorithm will benefit from the structure of a Treap
 
+## What Are the Races and Who Are the Candidates? 
+
+The first race run through Rank Choice Voting is "Ms.Frizzle's Line Leader Election". There are four candidates (Lisa, Bob, Jane, and Mike), and five ballot cast. 
+
+The next race is called "Senior Class of 2023 Overseas Trip Vote; Where Should We Go?". There are five suggested locations (Australia, Italy, Japan, Peru, or South Africa) and ten students casting their ballots. 
+
+The final race is titled "Mr. Lester's Classroom Pet Election". There are six potential animals to pick from (Bunny, Lizard, Mouse, Pariot, Snake, or Turtle) and twenty ballots cast. 
+
+Run the program to see the process and results of each election! 
 
 ## How To Compile and Run Code:
 
