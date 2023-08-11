@@ -14,4 +14,4 @@ The purpose of this project is to implement a Rank-Choice voting system that sim
 
 ## How To Compile and Run Code:
 
-First run "cmake" within the build directory. Then run "make" within the same directory. And finally, run "./run_test" to see results of the elections. 
+First run "cmake" within the build directory. Then run "make" within the same directory. And finally, run "./run_tests" to see the results of the elections. 
